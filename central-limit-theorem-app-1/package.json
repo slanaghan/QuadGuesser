@@ -1,0 +1,17 @@
+{
+  "name": "central-limit-theorem-app",
+  "version": "1.0.0",
+  "description": "A JavaScript application demonstrating the central limit theorem.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "live-server src"
+  },
+  "dependencies": {
+    "chart.js": "^3.7.0"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "central-limit-theorem-app",
+  "version": "1.0.0",
+  "description": "A JavaScript application to demonstrate the central limit theorem.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "chart.js": "^3.6.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.64.0",
+    "webpack-cli": "^4.9.1",
+    "babel-loader": "^8.2.3",
+    "jest": "^27.0.6",
+    "eslint": "^7.32.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
